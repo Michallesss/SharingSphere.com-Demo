@@ -1,10 +1,11 @@
+'use client';
+import { HoverEffect } from "@/components/ui/card-hover-effect";
+import { features } from "@/data/features";
+
 export default function Features() {
   return (
-    <p>
-      Bento Grid,
-      Canvas Reveal Effect,
-      Hover Effect
-      maybe Infinite moving cards
-    </p>
-  )
+    <div className="max-w-5xl mx-auto px-8">
+      <HoverEffect items={features} />
+    </div>
+  );
 }
