@@ -7,22 +7,11 @@ import React from "react";
 const features = [
   {
     icon: "",
-    title: "Feature one",
+    title: "Effortless Integration",
     description:
-      "All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another.",
+      "Easily connect all your social media accounts in one place, making it simple to manage and share content across multiple platforms.",
   },
-  {
-    icon: "",
-    title: "Feature two",
-    description:
-      "All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another.",
-  },
-  {
-    icon: "",
-    title: "Feature three",
-    description:
-      "All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another.",
-  },
+  
 ];
 
 const Features = () => {
