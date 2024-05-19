@@ -1,19 +1,24 @@
-import Logo from '@/components/Logo';
-import Opinions from '@/components/Opinions';
-// import Preview from '@/components/Preview';
-import Features from '@/components/Features';
-import Authors from '@/components/Authors';
-import Waitlist from '@/components/Waitlist';
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import Preview from '@/components/Preview';
+import Faq from "@/components/Faq";
+import Waitlist from "@/components/Waitlist";
+import Footer from "@/components/Footer";
+import { NavbarMenu } from "@/components/NavbarMenu";
 
 export default function Landing() {
   return (
     <>
-      <Logo />
-      <Opinions />
-      {/*<Preview />*/}
+      <Hero>
+        <NavbarMenu />
+      </Hero>
       <Features />
-      <Authors />
+      <Preview />
+      <div className="mb-8">
+        <Faq />
+      </div>
       <Waitlist />
+      <Footer />
     </>
   );
 }
