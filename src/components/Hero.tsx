@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import IdeasFlow  from "../img/IdeasFlow.svg";
-import Loop from "../img/loop.png";
+import Loop from "../img/Loop.png";
 const Hero = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
